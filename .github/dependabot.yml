@@ -1,0 +1,25 @@
+version: 2
+updates:
+  # Pip project 1
+  - package-ecosystem: "pip"
+    directory: "/pip-project-1"
+    schedule:
+      interval: "daily"
+    
+  # Pip project 2
+  - package-ecosystem: "pip"
+    directory: "/pip-project-2"
+    schedule:
+      interval: "daily"
+    
+  # Poetry project 1
+  - package-ecosystem: "pip"
+    directory: "/poetry-project-1"
+    schedule:
+      interval: "daily"
+    
+  # Poetry project 2
+  - package-ecosystem: "pip"
+    directory: "/poetry-project-2"
+    schedule:
+      interval: "daily"
